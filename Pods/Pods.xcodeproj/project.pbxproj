@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0035E280E2227924AC4E2F8B3D44EF6B /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA35F2785AFC335297B2EA7314A23325 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		050D31F1ACF003324524127CC92E1C6F /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6D6D1513CF909A9A681F77948D9115 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		085471710D452454C5A4E1B611A0286B /* Pods-Quiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A8DD63D6398BA51E455E953AD0600D /* Pods-Quiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146EA652DBF62F28CFB6A3001693A9D8 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE3E7DA577EB853DE560C2E0EF47185 /* UITextView+TCCustomFont.m */; };
+		14BFEBCFAC6D424CB2BA0ACDD4B016EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2B3C98BF6B534DD54B2918F45B66A324 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 93694B1C397141DF08B295C966042EB9 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34EB028D19E87BB35069EFD777BEE3EF /* Pods-QuizTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D563920202A979C2D288FF5FFA1E1A1B /* Pods-QuizTests-dummy.m */; };
+		37437BE1DBC4C60EEF23B79D6C994BF8 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE15414B7D11CBA144C8720C3C53283 /* CSAnimationView.m */; };
+		44A767AF5DD71BEFDF216BD666E60074 /* Pods-QuizUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ECAFD3168D3A8B6B7CB6230F98C508 /* Pods-QuizUITests-dummy.m */; };
+		4F3DF3C44C278FE44AD44BA7C7FFE416 /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E9B2DC7CC5901ADDD14373F56908B9 /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51DB856BD58ADC66EAF464260C9BB683 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80ED8CA7091C6DB3E0F607AA65FFAE4F /* CSNavigationController.m */; };
+		59CA2B93A31BD390A373D8F05A412716 /* Pods-QuizTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA1862A1403C84350A99413C4FA56A8 /* Pods-QuizTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64272A27C2A597F40F7F2104CB2D6C41 /* Pods-Quiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD894D2C59C61A695EC954A5A25D6F /* Pods-Quiz-dummy.m */; };
+		662C71BB07B541650F00C223691E8902 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C39DF33F9079BF952289B9D8C69058 /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2EAB23D235F8B41E28A14ADD16542A9 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6C034A6E86CE7AADB895110A6B6789 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE024FC0C6A794A8BC3B113BF63E836A /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8276D151FC4EAA7EEF1BF76C74D5E0 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B37A4CE3AE562C1B0715F69687E6644A /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2E90A8D14B7E73E266C1104A1B9B4 /* CSBlurView.m */; };
+		C12996EA896ABDF39A40FC94315EA238 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F56E85FE1495305C4429197115B4F /* UILabel+TCCustomFont.m */; };
+		C5703AD94DB5E55AF9A2D572CC81A08B /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1DC8FF8B425F3A58A2CC2EEA3018C9 /* Canvas-dummy.m */; };
+		C9EA18F788CF76E49B34C3B12A42200D /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD507FB13AA03AE161B3ADD3C06FB2B3 /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9EA82F545BB2D13A0B32FF3A9FFF1C /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 379817FBE1F8DC22F0C92B8FA2FC591A /* CSAnimation.m */; };
+		D48B2522EF3D35210840DFF235E29288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DAD9483A8C579DE8A0561E2EC91736EB /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E74AEC35E1040CF4B724A32A04EF8C /* UINavigationBar+TCCustomFont.m */; };
+		DB678D6A80AE82C0E08F121230FADB12 /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8D7C863DD807C0C6D60E69C11E1113 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0DB59C5A2FC7EF534D4BFE1F45BFDC /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED8EA383502F8BB9D683FCA79C67C84 /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF9556B6C0FBC1894056CA9E9DFFC0E5 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 8436D0E2E59F4EE8F2B91471899A602C /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0280B7E837B585206DACE6B58CBA14A /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E471AD65E9A875B32572188A01CE0A8 /* UIButton+TCCustomFont.m */; };
+		E064A372B02C1DB0F4DD763CAD500BA1 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 538AEE3BC5FFA72FD652DA8083302864 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94AA7CD20594662AC3C30383550B559 /* Pods-QuizUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 376848DA14AF5022CAF78B3934F7E724 /* Pods-QuizUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7CA28AC38C6D1320868F4659F01DD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F36FC5C3F71A1B956F4D4837202295AF /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4598AF16C2017976295BE77D46FDA /* UITextField+TCCustomFont.m */; };
+		F39901564B1090B037119017503697F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FF638CC4A9134346D3A7831C880CF8CC /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5743C28C9CF46B94ABF55E0805F9F79 /* UITextField+PlaceholderColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB34CAE09E1A0476168D986AB4E531E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CBCC225074FD190F9BEA2940592423;
+			remoteInfo = Canvas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0165771B87CF140E0D7A5D075149ED92 /* Pods-QuizUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizUITests-frameworks.sh"; sourceTree = "<group>"; };
+		062DEF60AB7DC99B2E2CA3C55C45D9F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA1862A1403C84350A99413C4FA56A8 /* Pods-QuizTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizTests-umbrella.h"; sourceTree = "<group>"; };
+		1026879E8B07F40A0715DCEBC292FB3C /* Pods-QuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1746BF99D33B1CDE0FD0841A971A5713 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8276D151FC4EAA7EEF1BF76C74D5E0 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		228E974516E703F5C3C65B9BED7C52D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24086E99D7CA25F8EB3FA904927C612C /* Pods-Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		26AD2BE4CD8355AD950501410A8E8256 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		28B2E90A8D14B7E73E266C1104A1B9B4 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		2BC4598AF16C2017976295BE77D46FDA /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		2BE15414B7D11CBA144C8720C3C53283 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		2C8D7C863DD807C0C6D60E69C11E1113 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		332162D547A4F1BD9063597A23E57078 /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		376848DA14AF5022CAF78B3934F7E724 /* Pods-QuizUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizUITests-umbrella.h"; sourceTree = "<group>"; };
+		379817FBE1F8DC22F0C92B8FA2FC591A /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		3A6D6D1513CF909A9A681F77948D9115 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		40E9B2DC7CC5901ADDD14373F56908B9 /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		4B11D1432664B646C8AF0CA77DF9F108 /* Pods-QuizUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FF3E64D24419EB4497438D9DB1AE243 /* Pods-QuizUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuizUITests.modulemap"; sourceTree = "<group>"; };
+		538AEE3BC5FFA72FD652DA8083302864 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		577E60347D0C0E6B35EEDA3738D2DAE0 /* Pods-Quiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Quiz.modulemap"; sourceTree = "<group>"; };
+		6CC6167D2E9631A562A92BD73AFB9E32 /* Pods-QuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78C355362BE3598D87A1BA2332A17BD7 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		79E74AEC35E1040CF4B724A32A04EF8C /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		7B1DC8FF8B425F3A58A2CC2EEA3018C9 /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		7CDD894D2C59C61A695EC954A5A25D6F /* Pods-Quiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quiz-dummy.m"; sourceTree = "<group>"; };
+		7E9F56E85FE1495305C4429197115B4F /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		7ED8EA383502F8BB9D683FCA79C67C84 /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		80ED8CA7091C6DB3E0F607AA65FFAE4F /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		8436D0E2E59F4EE8F2B91471899A602C /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		84D70CB0B7960E1D3143A227B3006F1D /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		88A923B021B5C370603C93EECA22E6E9 /* Pods-QuizTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E471AD65E9A875B32572188A01CE0A8 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		917E88E624C7252267FDC37D120CA592 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		93694B1C397141DF08B295C966042EB9 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93ECAFD3168D3A8B6B7CB6230F98C508 /* Pods-QuizUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizUITests-dummy.m"; sourceTree = "<group>"; };
+		94776BE560F1B742FD09A48094218029 /* Pods_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3B75D92AE61104BA82B628CF27752D /* Pods_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8A8CEC349B2BD0265D80564015064F /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Canvas.modulemap; sourceTree = "<group>"; };
+		9CFF2BD008528F21B534F06FB6FC51CD /* Pods-QuizTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizTests-resources.sh"; sourceTree = "<group>"; };
+		9D6A48C8B57ACDCA6C83C85044F4AD36 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		9E22DCBC80F95E4388CFD33565E99D37 /* Pods-Quiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0D599731D12C125724A8019096621A9 /* Pods-Quiz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quiz-resources.sh"; sourceTree = "<group>"; };
+		A7CCA21C7D5B0EE383B3F01CF653DA68 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		AA35F2785AFC335297B2EA7314A23325 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		AD6081060993E5D80C2315722C109FFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE4F9DADC27961D0AE761858E05A136 /* Pods-QuizUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizUITests-resources.sh"; sourceTree = "<group>"; };
+		B07202D29ED1032C32D25C78D7120827 /* Pods-QuizTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3F2DE4389F089341A61F04B58F743B7 /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		B5743C28C9CF46B94ABF55E0805F9F79 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		B8C39DF33F9079BF952289B9D8C69058 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		BC688FB92623AC27BDE09B8562A41D18 /* Pods-QuizTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizTests-frameworks.sh"; sourceTree = "<group>"; };
+		BD9EF8C50228CE5455B87FF48003F057 /* Pods-QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		C493B9379EA8A6ABAD9CD6CD3A934E61 /* Pods-QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4EEF57CD7D7490EC86A346285D6A7DB /* Pods-Quiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA0F94A39682B1BFDE53F514295D11D3 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		CCA4655F1FB228174C65A356086F0C38 /* Pods_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D563920202A979C2D288FF5FFA1E1A1B /* Pods-QuizTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizTests-dummy.m"; sourceTree = "<group>"; };
+		DD507FB13AA03AE161B3ADD3C06FB2B3 /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		DD6C034A6E86CE7AADB895110A6B6789 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		DEDF56ED3EDAD9D88A94486B46F9A030 /* Pods-Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		DFEE5B82CC5401A7F444186638C60DE3 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		E4A8DD63D6398BA51E455E953AD0600D /* Pods-Quiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quiz-umbrella.h"; sourceTree = "<group>"; };
+		EB73ED60E3416C8D174BEEA573CC40E0 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		F02E8D8F13A6D6C55296335E67FB0474 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		F4C307DC2CDE74D0D297867780AC719A /* Pods-Quiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quiz-frameworks.sh"; sourceTree = "<group>"; };
+		F7C87D62A35D46317EEB13CCC7D5D2B1 /* Pods-QuizUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDE3E7DA577EB853DE560C2E0EF47185 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		FDFB5A656821EB57743E50D54016DFB1 /* Pods-QuizTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuizTests.modulemap"; sourceTree = "<group>"; };
+		FF116EDBAB86EA8FAD72D2C2AD9493FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5586183416ED8C570F36D2A0A7C67E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39901564B1090B037119017503697F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634ECCBC7222164D9467EE5F6EE0DF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BFEBCFAC6D424CB2BA0ACDD4B016EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910A477B8028CFF2267C8C9B8791CCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B2522EF3D35210840DFF235E29288 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F859291E195D21A264A259D771F641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7CA28AC38C6D1320868F4659F01DD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0334ED71238C5D307589CBFF4887F013 /* Pods-Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				AD6081060993E5D80C2315722C109FFB /* Info.plist */,
+				577E60347D0C0E6B35EEDA3738D2DAE0 /* Pods-Quiz.modulemap */,
+				C4EEF57CD7D7490EC86A346285D6A7DB /* Pods-Quiz-acknowledgements.markdown */,
+				9E22DCBC80F95E4388CFD33565E99D37 /* Pods-Quiz-acknowledgements.plist */,
+				7CDD894D2C59C61A695EC954A5A25D6F /* Pods-Quiz-dummy.m */,
+				F4C307DC2CDE74D0D297867780AC719A /* Pods-Quiz-frameworks.sh */,
+				A0D599731D12C125724A8019096621A9 /* Pods-Quiz-resources.sh */,
+				E4A8DD63D6398BA51E455E953AD0600D /* Pods-Quiz-umbrella.h */,
+				DEDF56ED3EDAD9D88A94486B46F9A030 /* Pods-Quiz.debug.xcconfig */,
+				24086E99D7CA25F8EB3FA904927C612C /* Pods-Quiz.release.xcconfig */,
+			);
+			name = "Pods-Quiz";
+			path = "Target Support Files/Pods-Quiz";
+			sourceTree = "<group>";
+		};
+		092B70336DAF93D7A7989040242D5D99 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A9427C6A569274E2C9CD376B0341EAFF /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		0F411DC1698F8CE0C6C83338B61D6557 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				ABBFC850D6738C2D731DC9E1C2D0AC20 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		1943620D612AE94ED948E72C35DC1D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26AD2BE4CD8355AD950501410A8E8256 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FDBFF2C9AB7CB6058C05267E0861A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D70CB0B7960E1D3143A227B3006F1D /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30AD8DCBADBECAF3AAA22FBAB0711ABD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0334ED71238C5D307589CBFF4887F013 /* Pods-Quiz */,
+				73C232A163FDB29071818DAAAA6304DA /* Pods-QuizTests */,
+				CE72507A263681F5721D6326B797C523 /* Pods-QuizUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32F6225428D6A129AEFC14CAF7B4B81E /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				33BFF78052FEF8F52AFEF970744EB4F9 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		33BFF78052FEF8F52AFEF970744EB4F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE5B82CC5401A7F444186638C60DE3 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4BA2AF0CF3C447415177108DFB2D567E /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				78C355362BE3598D87A1BA2332A17BD7 /* FIRInstanceID.h */,
+				EE4AC4DCF4F827B384FF556DA55621C2 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		5D32AF8F7D9B9B84BEA3D5ABF57004DA /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				1943620D612AE94ED948E72C35DC1D13 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		6B66822B3C5BB3979EF0908F07B9AD4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8A8CEC349B2BD0265D80564015064F /* Canvas.modulemap */,
+				332162D547A4F1BD9063597A23E57078 /* Canvas.xcconfig */,
+				7B1DC8FF8B425F3A58A2CC2EEA3018C9 /* Canvas-dummy.m */,
+				B3F2DE4389F089341A61F04B58F743B7 /* Canvas-prefix.pch */,
+				7ED8EA383502F8BB9D683FCA79C67C84 /* Canvas-umbrella.h */,
+				FF116EDBAB86EA8FAD72D2C2AD9493FB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Canvas";
+			sourceTree = "<group>";
+		};
+		6FFBCF08A26EBC2A2E27A9DC805164F6 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				EB73ED60E3416C8D174BEEA573CC40E0 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		73C232A163FDB29071818DAAAA6304DA /* Pods-QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				228E974516E703F5C3C65B9BED7C52D2 /* Info.plist */,
+				FDFB5A656821EB57743E50D54016DFB1 /* Pods-QuizTests.modulemap */,
+				B07202D29ED1032C32D25C78D7120827 /* Pods-QuizTests-acknowledgements.markdown */,
+				88A923B021B5C370603C93EECA22E6E9 /* Pods-QuizTests-acknowledgements.plist */,
+				D563920202A979C2D288FF5FFA1E1A1B /* Pods-QuizTests-dummy.m */,
+				BC688FB92623AC27BDE09B8562A41D18 /* Pods-QuizTests-frameworks.sh */,
+				9CFF2BD008528F21B534F06FB6FC51CD /* Pods-QuizTests-resources.sh */,
+				0EA1862A1403C84350A99413C4FA56A8 /* Pods-QuizTests-umbrella.h */,
+				C493B9379EA8A6ABAD9CD6CD3A934E61 /* Pods-QuizTests.debug.xcconfig */,
+				BD9EF8C50228CE5455B87FF48003F057 /* Pods-QuizTests.release.xcconfig */,
+			);
+			name = "Pods-QuizTests";
+			path = "Target Support Files/Pods-QuizTests";
+			sourceTree = "<group>";
+		};
+		7421765E2A176080E5608D7A46C2E53C /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				F04210A9D2A141F6BB3AE9275D91A6CA /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		770971F0B2CF635A2F3ACDEAE4DC0EFB /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				538AEE3BC5FFA72FD652DA8083302864 /* Canvas.h */,
+				40E9B2DC7CC5901ADDD14373F56908B9 /* CSAnimation.h */,
+				379817FBE1F8DC22F0C92B8FA2FC591A /* CSAnimation.m */,
+				DD507FB13AA03AE161B3ADD3C06FB2B3 /* CSAnimationView.h */,
+				2BE15414B7D11CBA144C8720C3C53283 /* CSAnimationView.m */,
+				AA35F2785AFC335297B2EA7314A23325 /* CSBlurView.h */,
+				28B2E90A8D14B7E73E266C1104A1B9B4 /* CSBlurView.m */,
+				DD6C034A6E86CE7AADB895110A6B6789 /* CSNavigationController.h */,
+				80ED8CA7091C6DB3E0F607AA65FFAE4F /* CSNavigationController.m */,
+				1B8276D151FC4EAA7EEF1BF76C74D5E0 /* UIButton+TCCustomFont.h */,
+				8E471AD65E9A875B32572188A01CE0A8 /* UIButton+TCCustomFont.m */,
+				B8C39DF33F9079BF952289B9D8C69058 /* UILabel+TCCustomFont.h */,
+				7E9F56E85FE1495305C4429197115B4F /* UILabel+TCCustomFont.m */,
+				8436D0E2E59F4EE8F2B91471899A602C /* UINavigationBar+TCCustomFont.h */,
+				79E74AEC35E1040CF4B724A32A04EF8C /* UINavigationBar+TCCustomFont.m */,
+				2C8D7C863DD807C0C6D60E69C11E1113 /* UITextField+PlaceholderColor.h */,
+				B5743C28C9CF46B94ABF55E0805F9F79 /* UITextField+PlaceholderColor.m */,
+				93694B1C397141DF08B295C966042EB9 /* UITextField+TCCustomFont.h */,
+				2BC4598AF16C2017976295BE77D46FDA /* UITextField+TCCustomFont.m */,
+				3A6D6D1513CF909A9A681F77948D9115 /* UITextView+TCCustomFont.h */,
+				FDE3E7DA577EB853DE560C2E0EF47185 /* UITextView+TCCustomFont.m */,
+				6B66822B3C5BB3979EF0908F07B9AD4E /* Support Files */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9F49296A03EC597EEA8149236AEFCD94 /* Pods */,
+				EFA797A9BB4177D4049410F408372DB6 /* Products */,
+				30AD8DCBADBECAF3AAA22FBAB0711ABD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9848837E89FFD6E97EC3A47A59F6D4EB /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7F2ACC9B9FA2B324C77EBB031067B /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		9F49296A03EC597EEA8149236AEFCD94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				770971F0B2CF635A2F3ACDEAE4DC0EFB /* Canvas */,
+				DD9CFC5B78B02C4CBC8366F7C1A1C980 /* Firebase */,
+				32F6225428D6A129AEFC14CAF7B4B81E /* FirebaseAnalytics */,
+				7421765E2A176080E5608D7A46C2E53C /* FirebaseAuth */,
+				5D32AF8F7D9B9B84BEA3D5ABF57004DA /* FirebaseDatabase */,
+				4BA2AF0CF3C447415177108DFB2D567E /* FirebaseInstanceID */,
+				0F411DC1698F8CE0C6C83338B61D6557 /* GoogleInterchangeUtilities */,
+				D7FA2474CEC2125846807E1BA240DF73 /* GoogleNetworkingUtilities */,
+				9848837E89FFD6E97EC3A47A59F6D4EB /* GoogleSymbolUtilities */,
+				092B70336DAF93D7A7989040242D5D99 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9427C6A569274E2C9CD376B0341EAFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				917E88E624C7252267FDC37D120CA592 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAF7F2ACC9B9FA2B324C77EBB031067B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F94A39682B1BFDE53F514295D11D3 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABBFC850D6738C2D731DC9E1C2D0AC20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7CCA21C7D5B0EE383B3F01CF653DA68 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE72507A263681F5721D6326B797C523 /* Pods-QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				062DEF60AB7DC99B2E2CA3C55C45D9F4 /* Info.plist */,
+				4FF3E64D24419EB4497438D9DB1AE243 /* Pods-QuizUITests.modulemap */,
+				4B11D1432664B646C8AF0CA77DF9F108 /* Pods-QuizUITests-acknowledgements.markdown */,
+				F7C87D62A35D46317EEB13CCC7D5D2B1 /* Pods-QuizUITests-acknowledgements.plist */,
+				93ECAFD3168D3A8B6B7CB6230F98C508 /* Pods-QuizUITests-dummy.m */,
+				0165771B87CF140E0D7A5D075149ED92 /* Pods-QuizUITests-frameworks.sh */,
+				ADE4F9DADC27961D0AE761858E05A136 /* Pods-QuizUITests-resources.sh */,
+				376848DA14AF5022CAF78B3934F7E724 /* Pods-QuizUITests-umbrella.h */,
+				6CC6167D2E9631A562A92BD73AFB9E32 /* Pods-QuizUITests.debug.xcconfig */,
+				1026879E8B07F40A0715DCEBC292FB3C /* Pods-QuizUITests.release.xcconfig */,
+			);
+			name = "Pods-QuizUITests";
+			path = "Target Support Files/Pods-QuizUITests";
+			sourceTree = "<group>";
+		};
+		D7FA2474CEC2125846807E1BA240DF73 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBFF2C9AB7CB6058C05267E0861A94 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		DD9CFC5B78B02C4CBC8366F7C1A1C980 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				6FFBCF08A26EBC2A2E27A9DC805164F6 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		EE4AC4DCF4F827B384FF556DA55621C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A48C8B57ACDCA6C83C85044F4AD36 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFA797A9BB4177D4049410F408372DB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1746BF99D33B1CDE0FD0841A971A5713 /* Canvas.framework */,
+				94776BE560F1B742FD09A48094218029 /* Pods_Quiz.framework */,
+				CCA4655F1FB228174C65A356086F0C38 /* Pods_QuizTests.framework */,
+				9A3B75D92AE61104BA82B628CF27752D /* Pods_QuizUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04210A9D2A141F6BB3AE9275D91A6CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F02E8D8F13A6D6C55296335E67FB0474 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D2DEE5F2ACADAF8DC0B4772E36CC6C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0DB59C5A2FC7EF534D4BFE1F45BFDC /* Canvas-umbrella.h in Headers */,
+				E064A372B02C1DB0F4DD763CAD500BA1 /* Canvas.h in Headers */,
+				4F3DF3C44C278FE44AD44BA7C7FFE416 /* CSAnimation.h in Headers */,
+				C9EA18F788CF76E49B34C3B12A42200D /* CSAnimationView.h in Headers */,
+				0035E280E2227924AC4E2F8B3D44EF6B /* CSBlurView.h in Headers */,
+				A2EAB23D235F8B41E28A14ADD16542A9 /* CSNavigationController.h in Headers */,
+				AE024FC0C6A794A8BC3B113BF63E836A /* UIButton+TCCustomFont.h in Headers */,
+				662C71BB07B541650F00C223691E8902 /* UILabel+TCCustomFont.h in Headers */,
+				DF9556B6C0FBC1894056CA9E9DFFC0E5 /* UINavigationBar+TCCustomFont.h in Headers */,
+				DB678D6A80AE82C0E08F121230FADB12 /* UITextField+PlaceholderColor.h in Headers */,
+				2B3C98BF6B534DD54B2918F45B66A324 /* UITextField+TCCustomFont.h in Headers */,
+				050D31F1ACF003324524127CC92E1C6F /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C280827C4BE0588EAFBFC2B6A39975 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085471710D452454C5A4E1B611A0286B /* Pods-Quiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFC062945B87501993AAD43CFA2B65B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94AA7CD20594662AC3C30383550B559 /* Pods-QuizUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514EE0DC4DD121F6F4F9CBE6195D279A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CA2B93A31BD390A373D8F05A412716 /* Pods-QuizTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34AF0A2AAFDFC75B66151729040AE954 /* Pods-Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1EC295EA3411FE8BA19BAED671E9AD /* Build configuration list for PBXNativeTarget "Pods-Quiz" */;
+			buildPhases = (
+				A41602264E11ECDB5CE5DCF35855AB19 /* Sources */,
+				D7F859291E195D21A264A259D771F641 /* Frameworks */,
+				36C280827C4BE0588EAFBFC2B6A39975 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C411BE692E095EF4272072E4877A827 /* PBXTargetDependency */,
+			);
+			name = "Pods-Quiz";
+			productName = "Pods-Quiz";
+			productReference = 94776BE560F1B742FD09A48094218029 /* Pods_Quiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80CBCC225074FD190F9BEA2940592423 /* Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F734F76098089EF9030FCCACD5766C7 /* Build configuration list for PBXNativeTarget "Canvas" */;
+			buildPhases = (
+				0A33DC707B44F030F5360D55F0E5C04D /* Sources */,
+				910A477B8028CFF2267C8C9B8791CCB6 /* Frameworks */,
+				1D2DEE5F2ACADAF8DC0B4772E36CC6C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvas;
+			productName = Canvas;
+			productReference = 1746BF99D33B1CDE0FD0841A971A5713 /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A62735756761628CC5DAD3FB90328194 /* Pods-QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40ADAC561F96DBEC52BCC8CF3534DA9B /* Build configuration list for PBXNativeTarget "Pods-QuizUITests" */;
+			buildPhases = (
+				517544CD853074599CFED934DC46886B /* Sources */,
+				634ECCBC7222164D9467EE5F6EE0DF99 /* Frameworks */,
+				4EFC062945B87501993AAD43CFA2B65B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuizUITests";
+			productName = "Pods-QuizUITests";
+			productReference = 9A3B75D92AE61104BA82B628CF27752D /* Pods_QuizUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C76AA36604650A2FE7ABE7BFFE04908C /* Pods-QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1535290EE41FC959BB84100166F00C9 /* Build configuration list for PBXNativeTarget "Pods-QuizTests" */;
+			buildPhases = (
+				AC2DE19D262F69ABCD6723872BD965B3 /* Sources */,
+				5586183416ED8C570F36D2A0A7C67E69 /* Frameworks */,
+				514EE0DC4DD121F6F4F9CBE6195D279A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuizTests";
+			productName = "Pods-QuizTests";
+			productReference = CCA4655F1FB228174C65A356086F0C38 /* Pods_QuizTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EFA797A9BB4177D4049410F408372DB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CBCC225074FD190F9BEA2940592423 /* Canvas */,
+				34AF0A2AAFDFC75B66151729040AE954 /* Pods-Quiz */,
+				C76AA36604650A2FE7ABE7BFFE04908C /* Pods-QuizTests */,
+				A62735756761628CC5DAD3FB90328194 /* Pods-QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A33DC707B44F030F5360D55F0E5C04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5703AD94DB5E55AF9A2D572CC81A08B /* Canvas-dummy.m in Sources */,
+				CB9EA82F545BB2D13A0B32FF3A9FFF1C /* CSAnimation.m in Sources */,
+				37437BE1DBC4C60EEF23B79D6C994BF8 /* CSAnimationView.m in Sources */,
+				B37A4CE3AE562C1B0715F69687E6644A /* CSBlurView.m in Sources */,
+				51DB856BD58ADC66EAF464260C9BB683 /* CSNavigationController.m in Sources */,
+				E0280B7E837B585206DACE6B58CBA14A /* UIButton+TCCustomFont.m in Sources */,
+				C12996EA896ABDF39A40FC94315EA238 /* UILabel+TCCustomFont.m in Sources */,
+				DAD9483A8C579DE8A0561E2EC91736EB /* UINavigationBar+TCCustomFont.m in Sources */,
+				FF638CC4A9134346D3A7831C880CF8CC /* UITextField+PlaceholderColor.m in Sources */,
+				F36FC5C3F71A1B956F4D4837202295AF /* UITextField+TCCustomFont.m in Sources */,
+				146EA652DBF62F28CFB6A3001693A9D8 /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517544CD853074599CFED934DC46886B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A767AF5DD71BEFDF216BD666E60074 /* Pods-QuizUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41602264E11ECDB5CE5DCF35855AB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64272A27C2A597F40F7F2104CB2D6C41 /* Pods-Quiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2DE19D262F69ABCD6723872BD965B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EB028D19E87BB35069EFD777BEE3EF /* Pods-QuizTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C411BE692E095EF4272072E4877A827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Canvas;
+			target = 80CBCC225074FD190F9BEA2940592423 /* Canvas */;
+			targetProxy = BB34CAE09E1A0476168D986AB4E531E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11C0C7140C148658206745E69F1D5D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332162D547A4F1BD9063597A23E57078 /* Canvas.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14395FF1387F1CC7DC1CD56674D55042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C493B9379EA8A6ABAD9CD6CD3A934E61 /* Pods-QuizTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizTests/Pods-QuizTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		195BB5C53263081712C574EFF6DEF5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDF56ED3EDAD9D88A94486B46F9A030 /* Pods-Quiz.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Quiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quiz/Pods-Quiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Quiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45587AEEAF6BC84EB777E14762618608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24086E99D7CA25F8EB3FA904927C612C /* Pods-Quiz.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Quiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quiz/Pods-Quiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Quiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8731536D1EBCABF2F2FB98CE216EEEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC6167D2E9631A562A92BD73AFB9E32 /* Pods-QuizUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizUITests/Pods-QuizUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97D703FC0DE66994ED6CF0AAF9E1F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1026879E8B07F40A0715DCEBC292FB3C /* Pods-QuizUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizUITests/Pods-QuizUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD42D4DA4847D1A85FB70005085016D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9EF8C50228CE5455B87FF48003F057 /* Pods-QuizTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizTests/Pods-QuizTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE07B89A511424DDEB980347B099DAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332162D547A4F1BD9063597A23E57078 /* Canvas.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F734F76098089EF9030FCCACD5766C7 /* Build configuration list for PBXNativeTarget "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE07B89A511424DDEB980347B099DAAD /* Debug */,
+				11C0C7140C148658206745E69F1D5D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40ADAC561F96DBEC52BCC8CF3534DA9B /* Build configuration list for PBXNativeTarget "Pods-QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731536D1EBCABF2F2FB98CE216EEEED /* Debug */,
+				97D703FC0DE66994ED6CF0AAF9E1F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1EC295EA3411FE8BA19BAED671E9AD /* Build configuration list for PBXNativeTarget "Pods-Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195BB5C53263081712C574EFF6DEF5E6 /* Debug */,
+				45587AEEAF6BC84EB777E14762618608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1535290EE41FC959BB84100166F00C9 /* Build configuration list for PBXNativeTarget "Pods-QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14395FF1387F1CC7DC1CD56674D55042 /* Debug */,
+				AD42D4DA4847D1A85FB70005085016D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
